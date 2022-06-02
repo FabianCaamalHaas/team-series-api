@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { Navbar } from "./Navbar";
+import { NavbarApp } from "./NavbarApp";
 
 interface Props {
   tittle: string,
@@ -15,7 +15,7 @@ export const Layout = ({ tittle, children }: Props) => {
 
   return (
     <>
-      <Navbar />
+      <NavbarApp />
       <div className="p-2" >
         { children }
       </div>
