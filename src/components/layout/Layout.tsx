@@ -3,7 +3,7 @@ import { NavbarApp } from "./NavbarApp";
 
 interface Props {
   tittle: string,
-  children: JSX.Element,
+  children: JSX.Element | JSX.Element[],
 }
 
 export const Layout = ({ tittle, children }: Props) => {
