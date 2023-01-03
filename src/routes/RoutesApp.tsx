@@ -8,9 +8,8 @@ import {
 import { 
   Error404,
   Login,
-  Dashboard,
   TopAnimeWeek,
-} from '../pages/index';
+} from '../pages/';
 
 export const RoutesApp = () => {
   return (
@@ -18,9 +17,7 @@ export const RoutesApp = () => {
         <Routes>
           <Route path='/' element={<Navigate to="/dashboard" />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/animes' element={<TopAnimeWeek />} />
-
+          <Route path='/dashboard' element={<TopAnimeWeek />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
     </BrowserRouter>

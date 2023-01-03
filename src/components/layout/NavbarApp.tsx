@@ -59,7 +59,7 @@ export const NavbarApp = () => {
               component="div"
               sx={{ display: { xs: 'none', sm: 'block' } }}
             >
-              Series-API
+              <a href="/">AnimeFan</a>
             </Typography>
           </div>
 
